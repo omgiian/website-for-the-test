@@ -36,15 +36,16 @@ function uniqueCharacters(str)
     return true;
 }
 
+function unique1() {
 var str = document.getElementById("is-unique").value;
 
 if (uniqueCharacters(str) == true)
     document.getElementById("result").innerHTML= str +
-                   " has all unique characters" + "</br>";
+                   " has all unique characters" ;
 else
     document.getElementById("result").innerHTML= str +
                    " has duplicate characters";
-
+}
 
 // CHECK IF THE STRING IS PALINDROME
 
