@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Raleway&display=swap');
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Raleway;
+    padding: 80px;
+    background: #4d8c4f;
+  }
+  
+  .header {
+    font-family: Audiowide;
+    font-size: x-large;
+    padding: 30px;
+    text-align: left;
+    background: white;
+  }
+    
+  .lonelycolumn {   
+    float: left;
+    width: 100%;
+    background-color: #f1f1f1;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+  }
+
+
+  .leftcolumn2 {   
+    float: left;
+    width: 70%;
+    background-color: #f1f1f1;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+  }
+
+  .rightcolumn2 {   
+    float: left;
+    width: 30%;
+    background-color: #f1f1f1;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+  }
+
+  .leftcolumn {  
+    float: left;
+    width: 40%;
+    background-color: #f1f1f1;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+  }
+
+  .centralcolumn {  
+    float: left;
+    width: 40%;
+    background-color: #f1f1f1;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+  }
+
+  .columnbackground {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+  }
+
+  .rightcolumn {
+    display: table-cell;
+    float: left;
+    width: 20%;
+    background-color: #f1f1f1;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+  }
+
+  .topnav {
+    overflow: hidden;
+    background-color: rgb(31, 117, 50);
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+    
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  hr.solid {
+    border-top: 3px solid #bbb;
+  }
+
+  hr.finesolid {
+    border-top: 1px solid #bbb;
+  }
+
+  .right {
+    text-align: right;
+  }
+
+  .col-container {
+    display: table; 
+    width: 100%; 
+  }
+  
+  .col {
+    display: table-cell;
+    background-color: #f1f1f1;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+  }
