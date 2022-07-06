@@ -6,10 +6,23 @@
   
   body {
     font-family: Raleway;
-    padding: 80px;
+    padding: 70px;
     background: #4d8c4f;
   }
   
+  a {
+    color: rgb(195, 127, 0);
+  }
+
+  p {
+    margin: 5px;
+    text-indent: 1ch;
+  }
+
+  div {
+    margin: 5px;
+  }
+
   .header {
     font-family: Audiowide;
     font-size: x-large;
@@ -39,7 +52,7 @@
 
   .rightcolumn2 {   
     float: left;
-    width: 30%;
+    width: 28%;
     background-color: #f1f1f1;
     padding-right: 20px;
     padding-left: 20px;
@@ -71,9 +84,8 @@
   }
 
   .rightcolumn {
-    display: table-cell;
     float: left;
-    width: 20%;
+    width: 17%;
     background-color: #f1f1f1;
     padding-left: 20px;
     padding-right: 20px;
